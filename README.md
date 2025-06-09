@@ -10,9 +10,11 @@ This repository documents my journey in building a **SOC (Security Operations Ce
 |--------|-------------|
 | `Wazuh_ELK_Setup/` | Installation and configuration of Wazuh with the ELK Stack. |
 | `Agent_Configuration/` | Setup and registration of monitored machines (agents). |
-| `File_Integrity_Monitoring/` | Real-time file change monitoring using Wazuh syscheck. |
+| `Custom_Rules/` | Customizing pre-built Wazuh rules to better fit lab scenarios. |
+| `New_Rules/` | Creating entirely new rules for specific threat detections. |
 | `Authentication_Alerting/` | Tracking SSH authentication failures and alerting. |
 | `Active_Response/` | Automatically block IPs on detection of attacks. |
+| `File_Integrity_Monitoring/` | Real-time file change monitoring using Wazuh syscheck. |
 | `Email_Alerting/` | Send alert emails via Gmail SMTP. |
 | `Discord_Alerting/` | Forward high-severity alerts to Discord using webhooks. |
 | `Kibana_Visualization/` | Creating dashboards in Kibana to visualize Wazuh alerts. |
