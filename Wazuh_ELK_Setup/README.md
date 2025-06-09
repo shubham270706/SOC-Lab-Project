@@ -38,7 +38,7 @@ I followed the **official Wazuh documentation** to install and configure Wazuh w
 1. Cloned the Wazuh installation scripts from the official repo.
 2. Verified Wazuh dashboards loaded inside Kibana.
 3. Ensured that the Wazuh API and services were up and running.
-4. Later setup Agent following the official documentation. (./Agent_Configuration/README.md)
+4. Later setup Agent following the official documentation. (../Agent_Configuration/README.md)
 
 ---
 
