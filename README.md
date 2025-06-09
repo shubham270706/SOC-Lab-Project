@@ -26,8 +26,8 @@ This repository documents my journey in building a **SOC (Security Operations Ce
 
 | Role | OS | Description |
 |------|----|-------------|
-| Wazuh + ELK | Ubuntu 22.04 | Main server for monitoring and dashboards |
-| Agent (Victim) | Ubuntu 22.04 | Simulates attacks and monitored by Wazuh |
+| Wazuh + ELK | Ubuntu 24.04 | Main server for monitoring and dashboards |
+| Agent (Victim) | Ubuntu 24.04 | Simulates attacks and monitored by Wazuh |
 | Attacker | Kali Linux | Used to launch brute-force and other simulated attacks |
 
 ---
