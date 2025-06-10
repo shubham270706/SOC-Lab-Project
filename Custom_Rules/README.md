@@ -12,7 +12,7 @@ This section documents how I customized Wazuh rules to better detect specific th
 ---
 ## 📂 Location of Pre-Built Rules
 
-Wazuh reads pre-built rules from:
+Wazuh stores its default rules in:
 ```bash
 /var/ossec/ruleste/rules/
 ```
