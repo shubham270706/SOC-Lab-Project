@@ -67,12 +67,6 @@ I chose this project to gain practical cybersecurity skills by building a home S
 
 ---
 
-## 🤝 Contributing
-
-This is a personal learning project, but feel free to fork and adapt!
-
----
-
 ## 📬 Contact
 
 **Shubham Mahato**  
