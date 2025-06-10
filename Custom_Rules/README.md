@@ -24,7 +24,7 @@ I simulated a failed login attempt to see the output. The output is as follows:
 
 From here we can see the RuleID is: `2501`
 
-I found the rules files and its location by clicking the RuleId
+The rule files and its location can be found by clicking the RuleId
 
 *Output Pic*
 
