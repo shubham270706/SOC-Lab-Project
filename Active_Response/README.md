@@ -13,8 +13,8 @@ I added the following block in the `/var/ossec/etc/ossec.conf` file under the `<
 <active-response>
   <command>firewall-drop</command>
   <location>all</location>
-  <rules_id>100502</rules_id>
-  <timeout>900</timeout>
+  <rules_id> 100502 </rules_id>
+  <timeout> 900 </timeout>
 </active-response>
 ```
 ### 🧠 Explanation:
