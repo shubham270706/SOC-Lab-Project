@@ -12,7 +12,6 @@ This repository documents my journey in building a **SOC (Security Operations Ce
 | `Agent_Configuration/` | Setup and registration of monitored machines (agents). |
 | `Custom_Rules/` | Customizing pre-built Wazuh rules to better fit lab scenarios. |
 | `New_Rules/` | Creating entirely new rules for specific threat detections. |
-| `Authentication_Alerting/` | Tracking SSH authentication failures and alerting. |
 | `Active_Response/` | Automatically block IPs on detection of attacks. |
 | `File_Integrity_Monitoring/` | Real-time file change monitoring using Wazuh syscheck. |
 | `Email_Alerting/` | Send alert emails via Gmail SMTP. |
