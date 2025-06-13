@@ -8,16 +8,16 @@ This repository documents my journey in building a **SOC (Security Operations Ce
 
 | Folder | Description |
 |--------|-------------|
-| `Wazuh_ELK_Setup/` | Installation and configuration of Wazuh with the ELK Stack. |
-| `Agent_Configuration/` | Setup and registration of monitored machines (agents). |
-| `Custom_Rules/` | Customizing pre-built Wazuh rules to better fit lab scenarios. |
-| `New_Rules/` | Creating entirely new rules for specific threat detections. |
-| `Active_Response/` | Automatically block IPs on detection of attacks. |
-| `File_Integrity_Monitoring/` | Real-time file change monitoring using Wazuh syscheck. |
-| `Email_Alerting/` | Send alert emails via Gmail SMTP. |
-| `Discord_Alerting/` | Forward high-severity alerts to Discord using webhooks. |
-| `Kibana_Visualization/` | Creating dashboards in Kibana to visualize Wazuh alerts. |
-| `Troubleshooting/` | Common problems I faced and how I fixed them. |
+| [`Wazuh_ELK_Setup/`](./Wazuh_ELK_Setup/README.md) | Installation and configuration of Wazuh with the ELK Stack. |
+| [`Agent_Configuration/`](./Agent_Configuration/README.md) | Setup and registration of monitored machines (agents). |
+| [`Custom_Rules/`](./Custom_Rules/README.md)| Customizing pre-built Wazuh rules to better fit lab scenarios. |
+| [`New_Rules/`](./New_Rules/README.md) | Creating entirely new rules for specific threat detections. |
+| [`Active_Response/`](./Active_Response/README.md) | Automatically block IPs on detection of attacks. |
+| [`File_Integrity_Monitoring/`](./File_Integrity_Monitoring/README.md) | Real-time file change monitoring using Wazuh syscheck. |
+| [`Email_Alerting/`](./Email_Alerting/README.md) | Send alert emails via Gmail SMTP. |
+| [`Discord_Alerting/`](./Discord_Alerting/README.md) | Forward high-severity alerts to Discord using webhooks. |
+| [`Kibana_Visualization/`](./Kibana_Visualization/README.md) | Creating dashboards in Kibana to visualize Wazuh alerts. |
+| [`Troubleshooting/`](./Troubleshooting/README.md) | Common problems I faced and how I fixed them. |
 
 ---
 
