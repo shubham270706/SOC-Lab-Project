@@ -15,7 +15,7 @@ Wazuh’s FIM is configured in `the ossec.conf` file on the agent (victim) machi
 
 Here's the configuration I used:
 
-*Insert config file screenshot*
+![Config Fil](images/ConfigFile.png)
 
 ### 🧾 Explanation:
 - `check_all="yes"`: Monitor permissions, ownership, and content.
@@ -35,11 +35,12 @@ sudo systemctl restart wazuh-agent
 To verify that FIM works:
 - Created and modified a file inside `/etc`:
 
-*Insert screenshot*
+![Created File](images/CreatedFile.png)
+
 
 - Within seconds, Wazuh detected the change and generated an alert.
 
-*Insert Screenshot*
+![Created File](images/WazuhAlert.png)
 
 ---
 ## 📝 Summary
