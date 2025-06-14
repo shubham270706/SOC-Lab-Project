@@ -48,7 +48,8 @@ I generated SSH failures manually and confirmed that Wazuh raised the correct al
 
 This shows the working of the RuleID `100500`
 
-*Screenshot Pic*
+![100500](images/100500.png)
+
 
 ---
 ##  🧪 Phase 2: Writing Custom Rules from Scratch
@@ -82,11 +83,12 @@ I generated SSH failures manually and confirmed that Wazuh raised the correct al
 
 This shows the working of the RuleID `100501`
 
-*Screenshot piv*
+![100501](images/100501.png)
 
 This shows the working of the RuleID `100502`
 
-*Screenshot Pic*
+![100502](images/100502.png)
+
 
 ---
 
