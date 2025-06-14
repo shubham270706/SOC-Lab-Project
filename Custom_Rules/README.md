@@ -20,13 +20,15 @@ Wazuh stores its default rules in:
 ## 🔍 Finding the ruleset and the rule
 I simulated a failed login attempt to see the output. The output is as follows:
 
-*Output Pic*
+![Wazuh Dashboard](images/Alert.png)
+
 
 From here we can see the RuleID is: `2501`
 
 The rule files and its location can be found by clicking the RuleId
 
-*Output Pic*
+![Rule ID](images/RuleID.png)
+
 
 Opening the ``0020-syslog-rules.xml`` file and going to the rule 2501 we can see the ``alert`` option set to ``5``. Changing it to 10 classifies this alert as a high-level event.
 
@@ -41,7 +43,8 @@ systemctl restart wazuh-manager
 ## ✅ Verifying the customization
 Repeating the failed authentication attemp, we see this alert in Wazuh along with the updated alert level
 
-*Output Pic*
+![Updated Alert](images/UpdatedAlert.png)
+
 
 This confirms that the rule customization works as intended.
 
