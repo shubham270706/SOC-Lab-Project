@@ -15,7 +15,7 @@ This section describes how I configured Wazuh to forward high-severity alerts di
      - Going to channel settings → Integrations → Webhooks → New Webhook
      - Copied the webhook URL for later use.
 
-  *Insert Screenshot*
+  ![webhook](images/Webhook.png)
     
 2. Created a Custom Integration Script
 
@@ -106,20 +106,20 @@ Added a custom integration under `<integration>`:
 ```
 *Replace the webhook URL with your own.*
 
-*Insert Screenshot*
+![config file](images/Config.png)
 
 5. Lastly, we need to restart Wazuhs controls:
 `sudo /var/ossec/bin/wazuh-control restart`
 
 It sends a few alerts in the Discord channel when its restarting confirming that the setup was successfulll.
 
-*Insert Screenshot*
+![confirmation](images/Confirmation.png)
 
 6. Tested the Integration
 
 I triggered a test alert from my custom brute-force detection rule (100502) and ✅ the message was sent to my Discord alerts channel successfully.
 
-*Insert Screenshot*
+![Alerts](images/Alerts.png)
 
 ---
 ## 🧾 Summary
