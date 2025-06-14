@@ -29,7 +29,7 @@ smtp_sasl_security_options = noanonymous
 smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
 smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 ```
-*Insert screenshot*
+![main.cf](images/main.cf.png)
 
 3. Created Authentication File
 Created `/etc/postfix/sasl_passwd` with:
@@ -38,7 +38,7 @@ Created `/etc/postfix/sasl_passwd` with:
 ```
 **Replace your-app-password with your Google App Password**
 
-*Insert screenshot*
+![sasl passwd](images/sasl_passwd.png)
 
 Then:
 ```bash
@@ -55,7 +55,7 @@ sudo systemctl restart postfix
 ```bash
 echo "Test email from Wazuh SOC lab" | mail -s "Wazuh Test" your-email@gmail.com
 ```
-*Insert screenshot*
+![Test email](images/TestEmail.png)
 
 ✅ Email was received successfully.
 
@@ -76,7 +76,7 @@ Edited `/var/ossec/etc/ossec.conf` and added:
    <email_alert_level> 10 </email_alert_level>
 </rule_alert>
 ```
-*Insert conf screenshot*
+![conf](images/ossec.conf.png)
 
 This ensures alerts with level ≥10 are emailed.
 
@@ -88,7 +88,7 @@ sudo systemctl restart wazuh-manager
 8. Verified Alert Delivery
 I simulated a brute-force SSH attack, which triggered my custom rule (`100502`), and ✅ I received an alert email from Wazuh.
 
-*Insert Email screenshot*
+![Alert in Email](images/Alert_forwarded_by_Email.png)
 
 ---
 ## 🧾 Summary
