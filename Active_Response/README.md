@@ -39,9 +39,11 @@ After the 3rd failed attempt within 60 seconds (as defined in rule `100502`) the
 - Wazuh executed the `firewall-drop` command.
 - The attacking IP was automatically blocked.
 
-*2 Wazuh dashboard sreenshots*
+![Wazuh Dashboard](images/WazuhDashboard.png)
+![Active Response](images/ActiveResponse.png)
 
-*screenshot showing ssh connection getting blocked*
+SSH Connection was blocked
+![SSH Blocked](images/SSHBlocked.png)
 
 ---
 ## 📝 Summary
