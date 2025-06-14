@@ -33,7 +33,21 @@ In this section, I configured dashboards in Kibana to visualize alerts, authenti
   
 ---
 ## 📸 Example Visualizations
-*Screenshots Insert*
+
+![](images/TopGroups.png)
+
+----
+
+![](images/Rules-Count.png)
+
+----
+
+![](images/Rules-Count_Above5.png)
+
+----
+
+![](images/AlertLevelCount.png)
+
 
 ---
 ## 🧾 Summary
